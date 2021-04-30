@@ -1,0 +1,1 @@
+{"processes":{"219c2892-341c-42fe-97a4-aa72012b2736":{"parent":null,"children":["cbe84a83-554c-4e6e-a688-3725c3c36a0e"]},"cbe84a83-554c-4e6e-a688-3725c3c36a0e":{"parent":"219c2892-341c-42fe-97a4-aa72012b2736","children":[]}},"files":{"/home/usuario/pr9-async-fs-process/src/basicFunctions.ts":["cbe84a83-554c-4e6e-a688-3725c3c36a0e"]},"externalIds":{}}
