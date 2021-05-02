@@ -46,6 +46,11 @@ Una vez configurado la estructura de ficheros-directorios y las herramientas nec
 ```bash
 npm install --save-dev @types/node
 ```
+- Chalk para dar color a la consola:
+```bash
+npm install --save-dev chalk
+```
+
 - Yargs para la utilización de argumentos:
 ```bash
 npm install --save-dev yargs @types/yargs
@@ -220,6 +225,28 @@ A continuación, la traza de ejecución:
 ### Salida de pantalla
 
 ![ej_1](img/Selection_001.png)
+
+
+### Ejercicio 2
+
+En este ejercicio debemos crear una aplicación que muestre información sobre el número de líneas, palabras o caracteres que contiene un fichero de texto. Se debe desarrollar usando (o no) el método pipe para redirigir la salida de un comando hacia otro.
+
+Esta es la solución que propongo:
+
+```typescript
+
+```
+
+### Ejercicio 3
+
+Se nos pide reutilizar el código de la práctica anterior de nuestra aplicación de notas. Debemos incrementar sus opciones pasando además el nombre de usuario y la ruta donde se almacenan las notas de dicho usuario. Además la aplicación debe controlar los cambios sobre el directorio especificado.
+
+Esta es la solución propuesta:
+
+```typescript
+
+```
+
 
 ## Conclusión
 
