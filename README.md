@@ -193,25 +193,25 @@ A continuación, la traza de ejecución:
 - Pila de llamadas: **access handler**
 - Registro de eventos: **watcher.on()**
 - Cola de manejadores: --
-- Console: **Starting to watch file helloWorld.txt | File helloWorld.txt is no longer watched**
+- Console: <b>Starting to watch file helloWorld.txt <br>File helloWorld.txt is no longer watched</b>
 
 16)
 - Pila de llamadas: --
 - Registro de eventos: **watcher.on()**
 - Cola de manejadores: **console.log()**
-- Console: **Starting to watch file helloWorld.txt | File helloWorld.txt is no longer watched**
+- Console: <b>Starting to watch file helloWorld.txt <br>File helloWorld.txt is no longer watched</b>
 
 17)
 - Pila de llamadas: **console.log()**
 - Registro de eventos: **watcher.on()**
 - Cola de manejadores: --
-- Console: **Starting to watch file helloWorld.txt | File helloWorld.txt is no longer watched**
+- Console: <b>Starting to watch file helloWorld.txt <br>File helloWorld.txt is no longer watched</b>
 
 18)
 - Pila de llamadas: --
 - Registro de eventos: **watcher.on()**
 - Cola de manejadores: --
-- Console: **Starting to watch file helloWorld.txt | File helloWorld.txt is no longer watched | File helloworld.txt has been modified somehow**
+- Console: <b>Starting to watch file helloWorld.txt <br>File helloWorld.txt is no longer watched <br>File helloworld.txt has been modified somehow</b>
 
 
 !! Al parar la ejecución del programa salimos sacamos watcher.on del registro de eventos.
